@@ -8,7 +8,6 @@ const routes = require('./routes')
 const pkg = require('./package')
 const app = express()
 
-
 app.set('view engine', 'ejs')//设置模板引擎为ejs
 app.set('views', path.join(__dirname, 'views'))//设置存放模板引擎文件的目录
 
